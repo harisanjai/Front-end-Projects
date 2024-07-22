@@ -1,0 +1,41 @@
+
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.div{
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.primarydiv{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 10px 10px black;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+  top: 90px;
+}
+table, th, td {
+  border: 2px solid black;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
